@@ -1,42 +1,31 @@
 body {
 	font-size: 1em;
 	align-items: center;
-	background-color: #	#DCDCDC
+	background-color: #DCDCDC
 }
 
-h5 {
+h1 {
     font-family: 'Merriweather', serif;
 		font-size: 3em;
 		text-align: center;
 }
 
-h1 {
+h2 {
     font-family: 'Merriweather', serif;
 		font-size: 1em;
 		text-align: center;
 }
 
 
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1em;
-}
-
 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	align-items: center;
 }
 
 h4 {
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-}
-
-p {
-	font-family: Georgia, "Times New Roman", serif;
-	text-align: center;
-	font-size: 1em;
+	align-items: center;
 }
 
 
@@ -50,6 +39,11 @@ p {
 	margin: 0 auto;
 }
 
+.paragraph {
+	font-family: 'Mansalva', cursive;
+	text-align: center;
+	font-size: 1.5em;
+}
 
 
 #nav li {
@@ -79,10 +73,6 @@ p {
 	background-color: #FFE4E1;
 }
 
-img {
-	border: none;
-	align-items: center;
-}
 
 .images {
     padding: 0;
@@ -95,4 +85,12 @@ img {
 	font-size: 0.6em;
 	font-family: 'Noto Serif', serif;
 	align-items: center;
+}
+
+@media screen and (max-width: 600px)
+{
+	#container {
+	height: 200px;
+	width: 50%;
+	}
 }
