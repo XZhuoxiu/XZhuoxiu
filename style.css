@@ -45,10 +45,7 @@ p {
     margin: 0 auto;
 }
 
-#nav {
-    padding: 0;
-	  list-style-type: none;
-}
+
 
 #nav li {
     margin: 0;
@@ -81,6 +78,13 @@ img {
 	border: none;
 	align-items: center;
 }
+
+.images {
+    padding: 0;
+	  list-style-type: none;
+}
+
+
 
 #footer {
 	color: Black;
